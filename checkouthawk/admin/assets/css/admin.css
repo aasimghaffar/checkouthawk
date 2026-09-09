@@ -1,0 +1,182 @@
+/* CheckoutHawk admin styles */
+
+.checkouthawk-wrap .checkouthawk-sub {
+	color: #646970;
+	font-size: 14px;
+	margin: 4px 0 18px;
+}
+
+.checkouthawk-panic {
+	align-items: center;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #2271b1;
+	border-radius: 4px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	padding: 16px 20px;
+}
+
+.checkouthawk-panic.is-on {
+	background: #fcf3e6;
+	border-left-color: #d63638;
+}
+
+.checkouthawk-panic h2 {
+	margin: 0 0 4px;
+}
+
+.checkouthawk-panic p {
+	color: #50575e;
+	margin: 0;
+	max-width: 62ch;
+}
+
+.checkouthawk-panic-form {
+	align-items: center;
+	display: flex;
+	gap: 8px;
+}
+
+.checkouthawk-tiles {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+	margin-bottom: 20px;
+}
+
+.checkouthawk-tile {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding: 16px 18px;
+}
+
+.checkouthawk-tile-label {
+	color: #646970;
+	font-size: 12px;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+}
+
+.checkouthawk-tile-value {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+.checkouthawk-tile-foot {
+	color: #646970;
+	font-size: 12px;
+}
+
+.checkouthawk-columns {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.checkouthawk-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 16px 18px;
+}
+
+.checkouthawk-card h2 {
+	margin-top: 0;
+}
+
+.checkouthawk-chart {
+	align-items: flex-end;
+	background: #f6f7f7;
+	border-radius: 3px;
+	display: flex;
+	gap: 4px;
+	height: 130px;
+	padding: 10px;
+}
+
+.checkouthawk-bar {
+	background: #2271b1;
+	border-radius: 2px 2px 0 0;
+	flex: 1;
+	min-height: 2px;
+	position: relative;
+}
+
+.checkouthawk-bar-tip {
+	background: #1d2327;
+	border-radius: 3px;
+	bottom: 100%;
+	color: #fff;
+	display: none;
+	font-size: 11px;
+	left: 50%;
+	margin-bottom: 6px;
+	padding: 3px 6px;
+	position: absolute;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+.checkouthawk-bar:hover .checkouthawk-bar-tip {
+	display: block;
+}
+
+.checkouthawk-muted {
+	color: #646970;
+}
+
+.checkouthawk-pill {
+	background: #f0f0f1;
+	border-radius: 10px;
+	color: #1d2327;
+	display: inline-block;
+	font-size: 12px;
+	padding: 2px 9px;
+	white-space: nowrap;
+}
+
+.checkouthawk-pill-warning {
+	background: #fcf0e4;
+	color: #8a4b08;
+}
+
+.checkouthawk-pill-critical {
+	background: #fbeaea;
+	color: #a02121;
+}
+
+.checkouthawk-pill-notice {
+	background: #eef4fb;
+	color: #22527b;
+}
+
+.checkouthawk-inline-form {
+	display: inline-block;
+}
+
+.checkouthawk-add-block {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.checkouthawk-add-block label {
+	color: #646970;
+	font-size: 12px;
+	margin-left: 8px;
+}
+
+.checkouthawk-add-block label:first-child {
+	margin-left: 0;
+}
